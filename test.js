@@ -1,3 +1,4 @@
-window.onload=function(){
-    console.log("haha QWQ");
-}
+// window.onload=function(){
+//     console.log("haha QWQ");
+// }
+console.log("haha QWQ");
