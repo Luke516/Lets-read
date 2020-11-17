@@ -13,8 +13,10 @@ setTimeout(()=>{
   console.log(window.a)
 }, 5000)
 
-
-const data = { name: 'QWQ' }
-const channel = new MessageChannel()
-window.parent.postMessage(data, [channel.port2])
+setTimeout(()=>{
+  const data = { name: 'QWQ' }
+  const channel = new MessageChannel()
+  window.parent.postMessage(data, [channel.port2])
+  console.log("posted")
+}, 2500)
 
