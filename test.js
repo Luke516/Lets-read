@@ -3,15 +3,15 @@
 // }
 console.log("haha QWQ");
 
-window.a = 10;
-console.log(window.a)
+// window.a = 10;
+// console.log(window.a)
 
-parent.a = parent.a + 2;
-console.log('QWQ:' + parent.a)
+// parent.a = parent.a + 2;
+// console.log('QWQ:' + parent.a)
 
-setTimeout(()=>{
-  console.log(window.a)
-}, 5000)
+// setTimeout(()=>{
+//   console.log(window.a)
+// }, 5000)
 
 setTimeout(()=>{
   const data = { name: 'QWQ' }
